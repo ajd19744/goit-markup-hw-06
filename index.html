@@ -32,7 +32,7 @@
           >
           <ul class="header-list list link">
             <li class="header-item">
-              <a href="./index.html" class="header-link studio link">Studio</a>
+              <a href="./index.html" class="header-link active-page link">Studio</a>
             </li>
             <li class="header-item">
               <a href="./portfolio.html" class="header-link link">Portfolio</a>
@@ -494,7 +494,7 @@
         <form class="footer-form-subscribe">
           <p class="footer-text-subscribe">Subscribe</p>
           <div class="subscribe-label">
-            <label class="footer-subscribe">
+            <!-- <label class="footer-subscribe"> -->
               <input 
                   type="email" 
                   name="subscribe-email" 
@@ -502,7 +502,7 @@
                   required              
                   placeholder="E-mail" 
                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" />
-            </label>
+            <!-- </label> -->
             <button type="submit" class="subscribe-button">Subscribe
               <svg class="icon-sending" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-sending"></use>
@@ -525,7 +525,7 @@
         </button>
         <form class="modal-form">
           <b class="modal-text">Leave your contacts and we will call you back</b>
-          <label class="modal-name">
+          <label class="modal-name label">
             <span class="modal-header-text">Name</span>
             <span class="modal-icon">
               <input 
@@ -541,7 +541,7 @@
               </svg>
             </span>
           </label>
-          <label class="modal-phone">
+          <label class="modal-phone label">
             <span class="modal-header-text">Phone</span>
             <span class="modal-icon">
               <input 
@@ -558,7 +558,7 @@
               </svg>
             </span>
           </label>
-          <label class="modal-email">
+          <label class="modal-email label">
             <span class="modal-header-text">Email</span>
             <span class="modal-icon">
               <input 
@@ -573,14 +573,14 @@
               </svg>
             </span>
           </label>
-          <labei class="modal-comment">
+          <label class="modal-comment">
             <span class="modal-header-text">Comment</span>
             <textarea 
             name="description" 
             class="modal-comment-information input" 
             placeholder="Text input"            
             ></textarea>
-          </labei>
+          </label>
           <input id="policy" 
           type="checkbox" 
           name="policy" 

@@ -35,7 +35,7 @@
               <a href="./index.html" class="header-link link">Studio</a>
             </li>
             <li class="header-item">
-              <a href="./portfolio.html" class="header-link portfolio link">Portfolio</a>
+              <a href="./portfolio.html" class="header-link active-page link">Portfolio</a>
             </li>
             <li class="header-item">
               <a href="" class="header-link link">Contacts</a>
@@ -289,6 +289,26 @@
               </a>
             </li>
           </ul>
+        </div>
+        <form class="footer-form-subscribe">
+          <p class="footer-text-subscribe">Subscribe</p>
+          <div class="subscribe-label">
+            <!-- <label class="footer-subscribe"> -->
+              <input 
+                  type="email" 
+                  name="subscribe-email" 
+                  class="footer-email-subscribe" 
+                  required              
+                  placeholder="E-mail" 
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" />
+            <!-- </label> -->
+            <button type="submit" class="subscribe-button">Subscribe
+              <svg class="icon-sending" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-sending"></use>
+              </svg>
+             </button>
+          </div>
+        </form>
         </div>
       </div>
     </footer>
